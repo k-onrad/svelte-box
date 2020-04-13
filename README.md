@@ -3,7 +3,7 @@
 <div align="center">Svelte application boilerplate with Webpack, Babel, PostCSS, Sass, Fetch, Jest, .env, eslint.</div>
 <br/>
 
-<div align="center">
+<!--<div align="center">
 <!-- CodeClimate
 <a href="https://codeclimate.com/github/pankod/svelte-boilerplate/maintainability">
 <img src="https://api.codeclimate.com/v1/badges/2c6982d3ad672a07f7ae/maintainability" />
