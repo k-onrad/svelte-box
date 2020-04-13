@@ -30,8 +30,9 @@
 This boilerplate make it easier to get started with a well-structured Svelte application.
 <br />
 <br />
-<sub>Created by <a href="https://www.pankod.com">Pankod</a></sub>
-<sub>This fork is maintained by <a href="https://github.com/k-onrad/">K-onrad</a></sub>
+<sub>Fork maintained by <a href="https://github.com/k-onrad/">K-onrad</a></sub>
+<br />
+<sub>Originally created by <a href="https://www.pankod.com">Pankod</a></sub>
 
 </div>
 
