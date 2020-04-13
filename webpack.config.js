@@ -30,7 +30,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|mjs|svelte)$/,
-        exclude: /node_modules\/(?!svelte)/,
+        exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',
           options: {
@@ -41,7 +41,6 @@ module.exports = {
       },
       {
         test: /\.svelte$/,
-        exclude: /node_modules/,
         use: {
           loader: 'svelte-loader',
           options: {
