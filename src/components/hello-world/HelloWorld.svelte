@@ -1,4 +1,4 @@
-<style src="./style.scss"></style>
+<style src="./HelloWorld.styles.scss"></style>
 
 <div class="title">
     <span class="title__top">Hello</span>
