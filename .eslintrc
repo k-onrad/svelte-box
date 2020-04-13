@@ -9,9 +9,9 @@
   },
   "plugins": [
     "svelte3",
-    "prettier"
+    "jest"
   ],
-  "extends": ["prettier"],
+  "extends": ["standard", "plugin:jest/recommended"],
   "overrides": [
     {
       "files": ["**/*.svelte"],

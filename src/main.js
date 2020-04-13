@@ -1,12 +1,12 @@
-import "@babel/polyfill";
+import '@babel/polyfill'
 
-import App from './App/index.svelte';
-import './Assets/css/global.css';
+import App from './App.svelte'
+import './assets/css/global.css'
 
 const app = new App({
-    target: document.body
-});
+  target: document.body
+})
 
-window.app = app;
+window.app = app
 
-export default app;
+export default app

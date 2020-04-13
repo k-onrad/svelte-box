@@ -1,6 +1,4 @@
-<style src="./style.scss">
-
-</style>
+<style src="./style.scss"></style>
 
 <div class="title">
     <span class="title__top">Hello</span>
