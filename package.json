@@ -50,6 +50,7 @@
     "svelte": "^3.20.1",
     "svelte-loader": "2.13.3",
     "svelte-preprocess": "^2.16.0",
+    "svelte-spa-router": "^2.1.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"

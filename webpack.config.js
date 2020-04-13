@@ -1,14 +1,13 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
-
-const mode = process.env.NODE_ENV || 'development'
-const prod = mode === 'production'
-
-const { scss } = require('svelte-preprocess')
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
+const { scss } = require('svelte-preprocess')
+
+const mode = process.env.NODE_ENV || 'development'
+const prod = mode === 'production'
 const isInline = process.env.inline
 
 module.exports = {
@@ -17,10 +16,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      svelte: path.resolve('node_modules', 'svelte'),
-      '@Components': path.resolve(__dirname, 'src/Components/'),
-      '@Services': path.resolve(__dirname, 'src/Services/'),
-      '@Assets': path.resolve(__dirname, 'src/Assets/')
+      svelte: path.resolve('node_modules', 'svelte')
     },
     extensions: ['.mjs', '.js', '.svelte'],
     mainFields: ['svelte', 'browser', 'module', 'main']
