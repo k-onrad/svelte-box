@@ -1,8 +1,5 @@
-const path = require('path')
-
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-
+const path = require('path')
 const { scss } = require('svelte-preprocess')
 
 const mode = process.env.NODE_ENV || 'development'
@@ -53,13 +50,18 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          /**
-           * MiniCssExtractPlugin doesn't support HMR.
-           * For developing, use 'style-loader' instead.
-           * */
           prod ? MiniCssExtractPlugin.loader : 'style-loader',
-          'css-loader',
-          'postcss-loader'
+          { loader: 'css-loader', options: { importLoaders: 1 } },
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: (loader) => [
+                require('postcss-preset-env')(),
+                require('cssnano')()
+              ]
+            }
+          }
         ]
       },
       {
@@ -76,12 +78,6 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css'
-    }),
-    new HtmlWebpackPlugin({
-      inlineSource: '.(js|css)$',
-      hash: true,
-      template: './public/index.html',
-      title: 'svelte-boilerplate'
     })
   ],
   devtool: prod ? false : 'source-map',

@@ -1,7 +1,8 @@
 import '@babel/polyfill'
-
 import App from './App.svelte'
-import '../public/assets/css/global.css'
+
+import './themes/global.css'
+import './themes/shards.1.1.0.min.css'
 
 const app = new App({
   target: document.body

@@ -9,7 +9,7 @@
           id="main-logo" 
           class="d-inline-block align-top mr-1" 
           style="max-width: 25px;" 
-          src="/assets/images/shards-dashboards-logo.svg" 
+          src="assets/images/shards-dashboards-logo.svg" 
           alt="Shards Dashboard"/>
         <span class="d-none d-md-inline ml-1">Shards Dashboard</span>
       </div>
