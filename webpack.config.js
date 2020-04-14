@@ -1,14 +1,12 @@
 const path = require('path')
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const { scss } = require('svelte-preprocess')
 
 const mode = process.env.NODE_ENV || 'development'
 const prod = mode === 'production'
-const isInline = process.env.inline
 
 module.exports = {
   entry: {
@@ -80,12 +78,11 @@ module.exports = {
       filename: '[name].css'
     }),
     new HtmlWebpackPlugin({
-      inlineSource: isInline ? '.(js|css)$' : '',
-      hash: !isInline,
-      template: './src/index.html',
+      inlineSource: '.(js|css)$',
+      hash: true,
+      template: './public/index.html',
       title: 'svelte-boilerplate'
-    }),
-    new HtmlWebpackInlineSourcePlugin()
+    })
   ],
   devtool: prod ? false : 'source-map',
   devServer: {

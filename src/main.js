@@ -1,7 +1,7 @@
 import '@babel/polyfill'
 
 import App from './App.svelte'
-import './assets/css/global.css'
+import '../public/assets/css/global.css'
 
 const app = new App({
   target: document.body

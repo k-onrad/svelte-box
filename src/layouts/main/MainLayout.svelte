@@ -1,5 +1,4 @@
 <script>
-  import Logo from './layout-components/logo/Logo.svelte'
   import TopBar from './layout-components/top-bar/TopBar.svelte'
   import SideNav from './layout-components/side-nav/SideNav.svelte'
   import Footer from './layout-components/footer/Footer.svelte'
@@ -7,14 +6,14 @@
 
 <style src="./MainLayout.styles.scss"></style>
 
-<div class="main-layout">
-  <Logo/>
-  <TopBar/>
+<div class="main-layout row">
   <SideNav/>
 
-  <slot>
-    <div class="item content">content</div>
-  </slot>
-
-  <Footer />
+  <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+    <TopBar/>
+    <slot>
+      <div class="content">content</div>
+    </slot>
+    <Footer/>
+  </main>
 </div>
