@@ -1,4 +1,3 @@
-import '@babel/polyfill'
 import App from './App.svelte'
 
 import './themes/global.css'

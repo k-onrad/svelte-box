@@ -8,8 +8,6 @@
   const conditionsFailed = (event) => {
     // eslint-disable-next-line no-console
     console.error('Caught event conditionsFailed', event.detail)
-    // Replace the route
-    replace('/wild/conditions-failed')
   }
   // Handles the "routeLoaded" event dispatched by the router after a route has been successfully loaded
   // import ImageExample from './components/image-example/ImageExample.svelte'
