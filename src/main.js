@@ -2,8 +2,8 @@ import 'core-js/stable'
 import 'regenerator-runtime/runtime'
 import App from './App.svelte'
 
-import './themes/global.css'
-import './themes/shards.1.1.0.min.css'
+import './global.css'
+import './shards.1.1.0.min.css'
 
 const app = new App({
   target: document.body
