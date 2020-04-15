@@ -1,4 +1,4 @@
-import Layout from './Layout.svelte'
+import Layout from '../src/components/layout/Layout.svelte'
 import { render } from '@testing-library/svelte'
 
 describe('Layout', () => {

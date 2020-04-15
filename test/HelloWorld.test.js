@@ -1,4 +1,4 @@
-import HelloWorld from './HelloWorld.svelte'
+import HelloWorld from '../src/components/hello-world/HelloWorld.svelte'
 import { render } from '@testing-library/svelte'
 
 describe('Hello World', () => {

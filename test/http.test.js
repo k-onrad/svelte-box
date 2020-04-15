@@ -1,4 +1,4 @@
-import { Http } from './http.js'
+import { Http } from '../src/services/http.js'
 
 describe('Http request tests', () => {
   test('200 test', async () => {

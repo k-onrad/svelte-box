@@ -1,4 +1,4 @@
-import ImageExample from './ImageExample.svelte'
+import ImageExample from '../src/components/image-example/ImageExample.svelte'
 import { render } from '@testing-library/svelte'
 
 describe('Image Example', () => {

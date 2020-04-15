@@ -1,4 +1,4 @@
-import FetchExample from './FetchExample.svelte'
+import FetchExample from '../src/components/fetch-example/FetchExample.svelte'
 import { render } from '@testing-library/svelte'
 
 describe('Fetch Example', () => {
