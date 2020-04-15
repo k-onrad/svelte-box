@@ -66,7 +66,7 @@
         aria-expanded="false">
         <img 
           class="user-avatar rounded-circle mr-2" 
-          src="assets/images/default_user.jpg" 
+          src="images/default_user.jpg" 
           alt="User Avatar"/> <span class="d-none d-md-inline-block">User</span>
       </a>
       <div class="dropdown-menu dropdown-menu-small">
