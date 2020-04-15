@@ -1,8 +1,8 @@
 module.exports = {
-  exclude: ['node_modules/@babel/**', /core-js*/],
   presets: [
     ['@babel/preset-env', {
-      useBuiltIns: 'entry',
+      targets: '> 0.25%, not dead',
+      useBuiltIns: 'usage',
       corejs: 3
     }]
   ],
@@ -10,7 +10,6 @@ module.exports = {
     '@babel/plugin-syntax-dynamic-import',
     ['@babel/plugin-transform-runtime', {
       useESModules: true,
-      corejs: 3
     }]
   ]
 }

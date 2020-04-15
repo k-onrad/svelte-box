@@ -5,9 +5,13 @@ import postcss from 'rollup-plugin-postcss'
 import babel from 'rollup-plugin-babel'
 import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
+import pkg from './package.json'
 
 const dev = !!process.env.ROLLUP_WATCH
 const legacy = !!process.env.LEGACY_BUILD
+
+const externalDeps = Object.keys(Object.assign({}, pkg.dependencies, pkg.peerDependencies));
+
 
 const plugins = [
   svelte({
@@ -28,6 +32,7 @@ const plugins = [
   }),
   legacy && babel({
     extensions: ['.js', '.mjs', '.html', '.svelte'],
+    exclude: ['node_modules/@babel/**', /\/core-js\//],
     runtimeHelpers: true,
     ...require('./babel.config.js')
   })
