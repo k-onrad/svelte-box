@@ -37,15 +37,15 @@
 Basically, Sapper is awesome, but doesn't attempt to decouple back and front (routing relies on express/polka middleware).
 
 I needed something to give me a decent starting point, with the whole shebang:
-* polyfills 
-* preprocessors 
-* e2e testing 
-* SPA, hash-based routing 
+* polyfills
+* preprocessors
+* e2e testing
+* SPA, hash-based routing
 * some basic layouts
 
 But completely decoupled from a back-end.
 
-Obviously I still 🔥❤️️ Svelte , so I couldn't abandon it because of scaffolding. 
+Obviously I still 🔥❤️️ Svelte , so I couldn't abandon it because of scaffolding.
 
 I ended up forking something and messing around with it.
 
@@ -70,11 +70,11 @@ And layouts? Yes, layouts. Be advised we componentized and messed around with th
 
 ## Setting up shop
 
-[ ] Write this whole thing
+* [ ] Write this whole thing
 
 ## Where does everything go
 
-[ ] Write this too
+* [ ] Write this too
 
 ### For the bureaucrats
 
