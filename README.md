@@ -29,37 +29,49 @@ A template with reasonable defaults and basic layouts to get you on your way �
   <br />
   <sub>Maintained by <a href="https://github.com/k-onrad/">K-onrad</a></sub>
   <br />
-  <sub>Inspired by <a href="https://github.com/pankod/svelte-boilerplate">Pankod</a></sub>
+  <sub>Inspired by [Pankod](https://github.com/pankod/svelte-boilerplate)</sub>
 </div>
 
 
 ## Why?
 
 [  ] Improve this
+
 Basically, Sapper is awesome, but doesn't attempt to decouple back and front (routing relies on express/polka middleware).
-I needed something to give me a decent starting point, with polyfills, preprocessors, e2e testing, SPA routing and some basic layouts, but completely decoupled from a back-end.
+I needed something to give me a decent starting point, with the whole shebang:
+* polyfills 
+* preprocessors 
+* e2e testing 
+* SPA, hash-based routing 
+* some basic layouts
+But completely decoupled from a back-end.
+Obviously I still 🔥❤️️ Svelte , so I couldn't abandon it because of scaffolding. I ended up forking something and messing around with it.
 
 ## What's in the box?
 
-This template includes
+This template includes:
 * **[Svelte](https://svelte.dev/)** - Component framework which compiles your code to tiny, framework-less vanilla JS.
-* **Rollup** - Next-generation ES module bundler.
-* **Babel** -  Babel is a compiler for writing next generation JavaScript.
-* **Core-JS** - Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2020.
-* **Svelte-preprocessor** - SASS/SCSS preprocessor for svelte.
-* **PostCSS** - A tool for transforming styles with JS plugins.
-* **Svelte-SPA-Router** - Router for SPAs using Svelte 3.
-* **Cypress** - Javascript e2e testing framework.
-* **ESLint-Standard** - An ESLint shareable Config for JavaScript Standard Style.
-* **Isomorphic Fetch** - A promise-based mechanism for programmatically making web requests in the browser.
+* **[Rollup](https://rollupjs.org/guide/en/)** - Next-generation ES module bundler.
+* **[Babel](https://babeljs.io/)** -  Babel is a compiler for writing next generation JavaScript.
+* **[Core-JS](https://github.com/zloirock/core-js)** - Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2020.
+* **[Svelte-preprocess](https://github.com/kaisermann/svelte-preprocess)** - SASS/SCSS (and other stuff) preprocessor for svelte.
+* **[PostCSS](https://postcss.org/)** - A tool for transforming styles with JS plugins.
+* **[Svelte-SPA-Router](https://github.com/ItalyPaleAle/svelte-spa-router)** - Router for SPAs using Svelte 3.
+* **[Cypress](https://www.cypress.io/)** - Javascript e2e testing framework.
+* **[ESLint](https://eslint.org/)-[Standard](https://standardjs.com/)** - An ESLint shareable Config for JavaScript Standard Style.
+* **[Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch)** - Isomorphic WHATWG Fetch API, for Node & Browserify.
 
-  <br/>
-
+And layouts? Yes, layouts. Be advised we componentized and messed around with them a little bit.
+* **[Shards Dashboard](https://github.com/designrevision/shards-dashboard)** - A modern & free Bootstrap 4 admin dashboard template pack.
+* [  ] something blog-like
+* [  ] something store-like
 
 ## Setting up shop
 
 [  ] Write this whole thing
 
+
+## Where does everything go
 
 ### For the bureaucrats
 
