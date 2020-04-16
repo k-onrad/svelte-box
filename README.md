@@ -1,4 +1,4 @@
-<h1 align="center">Svelte Box</div>
+<h1 align="center">Svelte Box</h1>
 
 <!--<div align="center">
 <!-- CodeClimate
