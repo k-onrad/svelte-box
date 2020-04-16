@@ -45,7 +45,9 @@ I needed something to give me a decent starting point, with the whole shebang:
 
 But completely decoupled from a back-end.
 
-Obviously I still 🔥❤️️ Svelte , so I couldn't abandon it because of scaffolding. I ended up forking something and messing around with it.
+Obviously I still 🔥❤️️ Svelte , so I couldn't abandon it because of scaffolding. 
+
+I ended up forking something and messing around with it.
 
 ## What's in the box?
 
@@ -63,15 +65,16 @@ This template includes:
 
 And layouts? Yes, layouts. Be advised we componentized and messed around with them a little bit.
 * **[Shards Dashboard](https://github.com/designrevision/shards-dashboard)** - A modern & free Bootstrap 4 admin dashboard template pack.
-* [  ] something blog-like
-* [  ] something store-like
+* [ ] something blog-like
+* [ ] something store-like
 
 ## Setting up shop
 
-[  ] Write this whole thing
-
+[ ] Write this whole thing
 
 ## Where does everything go
+
+[ ] Write this too
 
 ### For the bureaucrats
 
