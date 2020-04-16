@@ -14,8 +14,8 @@
     "dev": "rollup -c -w",
     "start": "sirv static --port 3000",
     "cypress:open": "cypress open",
-    "lint": "eslint -c .eslintrc --ext .svelte,.js src",
-    "format": "eslint -c .eslintrc --fix --ext .svelte,.js --fix src",
+    "lint": "eslint -c .eslintrc.json --ext .svelte,.js src",
+    "format": "eslint -c .eslintrc.json --fix --ext .svelte,.js --fix src",
     "check": "es-check es5 './static/*.js'"
   },
   "devDependencies": {
