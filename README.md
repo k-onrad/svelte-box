@@ -1,4 +1,4 @@
-<div align="center">Svelte application boilerplate with Rollup, Babel+Core-JS polyfills, PostCSS+Sass and some other goodies.</div>
+# Svelte Box
 
 <!--<div align="center">
 <!-- CodeClimate
@@ -22,16 +22,13 @@
 </div>
 -->
 
-<br/>
 <div align="center">
-A template with reasonable defaults and basic layouts to get you on your way 😉.
-  <br />
+  A template with reasonable defaults and basic layouts to get you on your way 😉.
   <br />
   <sub>Maintained by <a href="https://github.com/k-onrad/">K-onrad</a></sub>
   <br />
-  <sub>Inspired by [Pankod](https://github.com/pankod/svelte-boilerplate)</sub>
+  <sub>Inspired by <a href="https://github.com/pankod/svelte-boilerplate">Pankod's boilerplate</a></sub>
 </div>
-
 
 ## Why?
 
