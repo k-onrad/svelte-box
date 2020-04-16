@@ -35,14 +35,14 @@ A template with reasonable defaults and basic layouts to get you on your way �
 
 ## Why?
 
-[] TODO
-Basically, Sapper is awesome, but doesn't attempt to decouple back and front (routing relies on express/polka middleware). 
+[  ] Improve this
+Basically, Sapper is awesome, but doesn't attempt to decouple back and front (routing relies on express/polka middleware).
 I needed something to give me a decent starting point, with polyfills, preprocessors, e2e testing, SPA routing and some basic layouts, but completely decoupled from a back-end.
 
 ## What's in the box?
 
-This template includes  
-* **Svelte** - Component framework which compiles your code to tiny, framework-less vanilla JS.
+This template includes
+* **[Svelte](https://svelte.dev/)** - Component framework which compiles your code to tiny, framework-less vanilla JS.
 * **Rollup** - Next-generation ES module bundler.
 * **Babel** -  Babel is a compiler for writing next generation JavaScript.
 * **Core-JS** - Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2020.
@@ -56,10 +56,11 @@ This template includes
   <br/>
 
 
-## Setup & Documentation
+## Setting up shop
 
-[] TODO
+[  ] Write this whole thing
 
-## License
 
-  Licensed under the MIT License, Copyright © 2019-present K-onrad
+### For the bureaucrats
+
+Licensed under the MIT License, Copyright © 2019-present K-onrad
