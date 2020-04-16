@@ -1,7 +1,4 @@
-<br/>
-<br/>
-<div align="center">Svelte application boilerplate with Webpack, Babel, PostCSS, Sass, Fetch, Jest, .env, eslint.</div>
-<br/>
+<div align="center">Svelte application boilerplate with Rollup, Babel+Core-JS polyfills, PostCSS+Sass and some other goodies.</div>
 
 <!--<div align="center">
 <!-- CodeClimate
@@ -27,80 +24,42 @@
 
 <br/>
 <div align="center">
-This boilerplate make it easier to get started with a well-structured Svelte application.
-<br />
-<br />
-<sub>Fork maintained by <a href="https://github.com/k-onrad/">K-onrad</a></sub>
-<br />
-<sub>Originally created by <a href="https://www.pankod.com">Pankod</a></sub>
-
+A template with reasonable defaults and basic layouts to get you on your way 😉.
+  <br />
+  <br />
+  <sub>Maintained by <a href="https://github.com/k-onrad/">K-onrad</a></sub>
+  <br />
+  <sub>Inspired by <a href="https://github.com/pankod/svelte-boilerplate">Pankod</a></sub>
 </div>
 
 
-## About
+## Why?
 
-Svelte is a new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
+[] TODO
+Basically, Sapper is awesome, but doesn't attempt to decouple back and front (routing relies on express/polka middleware). 
+I needed something to give me a decent starting point, with polyfills, preprocessors, e2e testing, SPA routing and some basic layouts, but completely decoupled from a back-end.
 
-Svelte runs at build time, converting your components into pure and optimized JavaScript code without other framework dependencies which makes for really tiny bundles. Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes. So there is no virtual DOM, no frameworks on top of frameworks, and no framework to load at runtime.
+## What's in the box?
 
-The advantages of this approach is we're able to write applications with excellent performance characteristics.
-
-This boilerplate make it easier to get started with a well-structured Svelte application.
-
-By the end of setup, you'll have a Svelte project and features which is specified at the below.
-
-<br/>
-
-## Features
-
-
-This boilerplate includes the latest powerfull tools.
-
+This template includes  
 * **Svelte** - Component framework which compiles your code to tiny, framework-less vanilla JS.
-* **Built-in Project CLI**- Create pages, components, actions, reducers with one command by using built-in cli.
-* **Sass/Scss** - CSS preprocessor, which adds special features such as variables, nested rules and mixins (sometimes referred to as syntactic sugar) into regular CSS.
-  * **PostCSS/autoprefixer** - A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
-* **Babel** -  The compiler for next generation JavaScript.(babel/polyfill included)
-  * **Eslint** - The pluggable linting utility.
-  * **dotenv .config** - Expose environment variables to the runtime config of Next.js
-  * **Jest** - Javascript testing framework , created by developers who created react
-  * **testing-library** - Simplifies the use of dom-testing with Svelte components & applications.
-  * **webpack** - A static module bundler for modern JavaScript applications.
-  * **fetch** - A promise-based mechanism for programmatically making web requests in the browser.
+* **Rollup** - Next-generation ES module bundler.
+* **Babel** -  Babel is a compiler for writing next generation JavaScript.
+* **Core-JS** - Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2020.
+* **Svelte-preprocessor** - SASS/SCSS preprocessor for svelte.
+* **PostCSS** - A tool for transforming styles with JS plugins.
+* **Svelte-SPA-Router** - Router for SPAs using Svelte 3.
+* **Cypress** - Javascript e2e testing framework.
+* **ESLint-Standard** - An ESLint shareable Config for JavaScript Standard Style.
+* **Isomorphic Fetch** - A promise-based mechanism for programmatically making web requests in the browser.
 
   <br/>
 
 
 ## Setup & Documentation
 
-  Please refer to our [setup guide](https://pankod.github.io/svelte-boilerplate/docs/setup) to create a new app.
-
-
-  For more detailed documentation, check out https://pankod.github.io/svelte-boilerplate/
-
-  <br/>
-
-## Built-in CLI
-
-  <br/>
-  <br/>
-
-  Pankod boilerplate is shipped with a CLI tool to streamline the creation of new components. By using the CLI tool, you may easily add components to your project.
-  <br />
-
-  To start the CLI, you may run the following npm command:
-
-  ```
-  npm run cli
-  ```
-
-  After starting, an interactive menu will let you configure the component the be created. You'll be asked for the name of the component.
-
-  After answering question it generates component, style and test files in miliseconds.
-
-  <br/>
-
+[] TODO
 
 ## License
 
-  Licensed under the MIT License, Copyright © 2019-present Pankod
+  Licensed under the MIT License, Copyright © 2019-present K-onrad
