@@ -9,9 +9,8 @@
   },
   "plugins": [
     "svelte3",
-    "jest"
   ],
-  "extends": ["standard", "plugin:jest/recommended"],
+  "extends": ["standard"],
   "overrides": [
     {
       "files": ["**/*.svelte"],
