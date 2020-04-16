@@ -52,7 +52,7 @@ I ended up forking something and messing around with it. Replaced some pieces th
 ## What's in the box?
 
 This template includes:
-* **[Svelte](https://svelte.dev/)** - Component framework which compiles your code to tiny, framework-less vanilla JS.
+* **[Svelte](https://svelte.dev/)** - Cybernetically enhanced web apps.
 * **[Rollup](https://rollupjs.org/guide/en/)** - Next-generation ES module bundler.
 * **[Babel](https://babeljs.io/)** -  Babel is a compiler for writing next generation JavaScript.
 * **[Core-JS](https://github.com/zloirock/core-js)** - Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2020.
