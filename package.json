@@ -15,7 +15,8 @@
     "start": "sirv static --port 3000",
     "cypress:open": "cypress open",
     "lint": "eslint -c .eslintrc --ext .svelte,.js src",
-    "format": "eslint -c .eslintrc --fix --ext .svelte,.js --fix src"
+    "format": "eslint -c .eslintrc --fix --ext .svelte,.js --fix src",
+    "check": "es-check es5 './static/*.js'"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -28,6 +29,7 @@
     "core-js": "^3.6.5",
     "cross-env": "^5.2.1",
     "cypress": "^4.4.0",
+    "es-check": "^5.1.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
