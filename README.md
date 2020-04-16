@@ -76,6 +76,8 @@ And layouts? Yes, layouts. Be advised we componentized and messed around with th
 
 * [ ] Write this too
 
-### For the bureaucrats
+---
 
-Licensed under the MIT License, Copyright © 2019-present K-onrad
+#### For the bureaucrats
+
+<sub>Licensed under the MIT License, Copyright © 2019-present K-onrad</sub>
