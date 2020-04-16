@@ -8,9 +8,15 @@
     "browser": true
   },
   "plugins": [
-    "svelte3"
+    "svelte3",
+    "cypress",
+    "chai-friendly"
   ],
-  "extends": ["standard"],
+  "extends": [
+    "standard",
+    "plugin:cypress/recommended",
+    "plugin:chai-friendly/recommended"
+  ],
   "overrides": [
     {
       "files": ["**/*.svelte"],
