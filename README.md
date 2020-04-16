@@ -32,7 +32,7 @@
 
 ## Why?
 
-[  ] Improve this
+* [ ] Improve this
 
 Basically, Sapper is awesome, but doesn't attempt to decouple back and front (routing relies on express/polka middleware).
 
