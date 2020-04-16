@@ -47,7 +47,7 @@ But completely decoupled from a back-end.
 
 Obviously I still 🔥❤️️ Svelte , so I couldn't abandon it because of scaffolding.
 
-I ended up forking something and messing around with it.
+I ended up forking something and messing around with it. Replaced some pieces that needed precise config to work properly, and here we are now!
 
 ## What's in the box?
 
