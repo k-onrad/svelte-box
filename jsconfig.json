@@ -21,6 +21,6 @@
   "include": [
     "src",
     "./node_modules/cypress",
-    "cypress/**/*.js"
+    "cypress/**/*.spec.js"
   ]
 }
