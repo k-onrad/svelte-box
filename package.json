@@ -17,7 +17,7 @@
     "lint": "eslint -c .eslintrc.json --ext .svelte,.js src",
     "format": "eslint -c .eslintrc.json --fix --ext .svelte,.js --fix src",
     "check": "es-check es5 './static/*.js'",
-    "jest": "jest ./old-tests"
+    "jest": "jest ./test --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

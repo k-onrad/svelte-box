@@ -1,6 +1,7 @@
 <script>
   import Logo from '../logo/Logo.svelte'
-  import SideNavItem from '../side-nav-item/SideNavItem.svelte'
+  import SideNavItem from './SideNavItem.svelte'
+  import SideNavSearch from './SideNavSearch.svelte'
 
   const modules = [
     { id: 1, href: '/', icon: 'edit', text: 'Dashboard' },
@@ -15,25 +16,7 @@
 
 <aside class="main-sidebar col-12 col-md-3 col-lg-2 px-0">
   <Logo />
-
-  <!-- Componentize this -->
-  <form 
-    action="#" 
-    class="main-sidebar__search w-100 border-right d-sm-flex d-md-none d-lg-none">
-    <div class="input-group input-group-seamless ml-3">
-      <div class="input-group-prepend">
-        <div class="input-group-text">
-          <i class="fas fa-search"></i>
-        </div>
-      </div>
-      <input 
-        class="navbar-search form-control" 
-        type="text" 
-        placeholder="Search for something..." 
-        aria-label="Search"/>
-    </div>
-  </form>
-  <!-- Componentize this -->
+  <SideNavSearch />
 
   <div class="nav-wrapper">
     <ul class="nav flex-column">

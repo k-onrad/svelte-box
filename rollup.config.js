@@ -17,7 +17,7 @@ const plugins = [
   }),
   resolve({
     browser: true,
-    dedupe: ['svelte']
+    dedupe: ['svelte', 'svelte-spa-router']
   }),
   commonjs(),
   postcss({
