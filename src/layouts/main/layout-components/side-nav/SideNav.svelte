@@ -1,7 +1,8 @@
 <script>
-  import Logo from '../logo/Logo.svelte'
   import SideNavItem from './SideNavItem.svelte'
   import SideNavSearch from './SideNavSearch.svelte'
+
+  export let openSidenav
 
   const modules = [
     { id: 1, href: '/', icon: 'edit', text: 'Dashboard' },
@@ -14,15 +15,44 @@
   ]
 </script>
 
-<aside class="main-sidebar col-12 col-md-3 col-lg-2 px-0">
-  <Logo />
+<style>
+  nav {
+    height: 100vh;
+    background: var(--white);
+    transition: transform .2s ease-in-out;
+    box-shadow: 
+    0 0.125rem 9.375rem rgba(90,97,105,.1), 
+    0 0.25rem 0.5rem rgba(90,97,105,.12), 
+    0 0.9375rem 1.375rem rgba(90,97,105,.1), 
+    0 0.4375rem 2.1875rem rgba(165,182,201,.1);
+  }
+  @media (max-width: 767.98px) {
+    nav {
+      transform: translateX(-100%);
+      box-shadow: none;
+    }
+  }
+  .open {
+    transform: translateX(0);
+    box-shadow: 
+    0 0.125rem 9.375rem rgba(90,97,105,.1), 
+    0 0.25rem 0.5rem rgba(90,97,105,.12), 
+    0 0.9375rem 1.375rem rgba(90,97,105,.1), 
+    0 0.4375rem 2.1875rem rgba(165,182,201,.1);
+  }
+  ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 3.75rem - 1px);
+  }
+</style>
+
+<nav class="sidebar col-12 col-md-3 col-lg-2 px-0" class:open={openSidenav == true}>
   <SideNavSearch />
 
-  <div class="nav-wrapper">
-    <ul class="nav flex-column">
-      {#each modules as {id, ...props} (id)}
-        <SideNavItem {...props}/>
-      {/each}
-    </ul>
-  </div>
-</aside>
+  <ul class="nav flex-column">
+    {#each modules as {id, ...props} (id)}
+      <SideNavItem {...props}/>
+    {/each}
+  </ul>
+</nav>
