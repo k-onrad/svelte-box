@@ -21,8 +21,8 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white flex-md-nowrap p-0">
   <Logo />
   <TopBarSearch />
-  <ul class="navbar-nav flex-row">
-    <TopBarNotifications />
+  <ul class="navbar-nav flex-row h-100">
+    <TopBarNotificationToggle />
     <!-- <TopBarUserDropdown /> -->
     <TopBarSidenavToggle on:click {openSidenav} />
   </ul>

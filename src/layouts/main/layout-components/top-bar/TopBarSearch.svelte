@@ -32,7 +32,7 @@
 
 </style>
 
-<div class="w-100 d-none d-md-flex d-lg-flex input-group input-group-seamless ml-3">
+<div class="h-100 w-100 d-none d-md-flex d-lg-flex input-group input-group-seamless ml-3">
   <span class="input-group-text">
     <i class="material-icons">search</i>
   </span>

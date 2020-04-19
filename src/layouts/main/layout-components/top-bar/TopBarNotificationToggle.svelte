@@ -1,31 +1,28 @@
 <script>
   import TopBarNotificationMenu from './TopBarNotificationMenu.svelte'
+
+  let show = false
 </script>
 
 <style>
-  li {
-    position: relative;
-  }
   .nav-link {
     min-width: 3.75rem;
     color: rgba(0,0,0,.5);
+    cursor: pointer;
   }
 </style>
 
 
-<li class="nav-item">
+<li class="nav-item h-100 position-relative">
   <div 
-    class="nav-link nav-link-icon text-center dropdown-toggle" 
-    href="/" 
-    role="button" 
-    id="dropdownMenuLink" 
-    data-toggle="dropdown" 
-    aria-haspopup="true" 
-    aria-expanded="false">
-    <div class="nav-link-icon__wrapper">
+    on:click={() => show = !show}
+    class="nav-link nav-link-icon text-center h-100">
+    <div>
       <i class="material-icons"></i>
       <span class="badge badge-pill badge-danger">2</span>
     </div>
   </div>
-  <TopBarNotificationMenu />
+  {#if show}
+    <TopBarNotificationMenu {show} />
+  {/if}
 </li>

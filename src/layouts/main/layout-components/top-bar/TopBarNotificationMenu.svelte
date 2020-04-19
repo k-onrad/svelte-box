@@ -1,4 +1,25 @@
-<div class="dropdown-menu dropdown-menu-small" aria-labelledby="dropdownMenuLink">
+<script>
+  export let show
+</script>
+
+<style>
+  .menu {
+    position: absolute;
+    right: 0;
+    left: auto;
+    margin: 0;
+    padding: 0;
+    min-width: 25rem;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0;
+    box-shadow: 0 0.5rem 2rem rgba(0,0,0,.11), 0 3px 10px rgba(0,0,0,.05), 0 2px 3px rgba(0,0,0,.06);
+    font-size: .8rem;
+  }
+</style>
+
+<div class="menu w-100" class:show>
   <a class="dropdown-item" href="/">
     <div class="notification__icon-wrapper">
       <div class="notification__icon">

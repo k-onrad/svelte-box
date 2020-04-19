@@ -1674,11 +1674,11 @@ var app = (function () {
     			set_style(img, "max-width", "25px");
     			if (img.src !== (img_src_value = "images/svelte-logo.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Shards Dashboard");
-    			add_location(img, file$3, 13, 2, 262);
+    			add_location(img, file$3, 13, 2, 268);
     			attr_dev(span, "class", "d-none d-md-inline ml-2");
-    			add_location(span, file$3, 19, 2, 421);
+    			add_location(span, file$3, 19, 2, 427);
     			attr_dev(a, "href", "/");
-    			attr_dev(a, "class", "navbar-brand col-md-3 col-lg-2 w-100 mx-0 svelte-1fc05y1");
+    			attr_dev(a, "class", "navbar-brand col-md-3 col-lg-2 h-100 w-100 mx-0 svelte-1fc05y1");
     			add_location(a, file$3, 12, 0, 197);
     		},
     		l: function claim(nodes) {
@@ -1755,15 +1755,15 @@ var app = (function () {
     			t1 = space();
     			input = element("input");
     			attr_dev(i, "class", "material-icons svelte-u0zpm6");
-    			add_location(i, file$4, 36, 4, 730);
+    			add_location(i, file$4, 36, 4, 736);
     			attr_dev(span, "class", "input-group-text svelte-u0zpm6");
-    			add_location(span, file$4, 35, 2, 694);
+    			add_location(span, file$4, 35, 2, 700);
     			attr_dev(input, "class", "form-control svelte-u0zpm6");
     			attr_dev(input, "type", "text");
     			attr_dev(input, "placeholder", "Search for something...");
     			attr_dev(input, "aria-label", "Search");
-    			add_location(input, file$4, 38, 2, 779);
-    			attr_dev(div, "class", "w-100 d-none d-md-flex d-lg-flex input-group input-group-seamless ml-3 svelte-u0zpm6");
+    			add_location(input, file$4, 38, 2, 785);
+    			attr_dev(div, "class", "h-100 w-100 d-none d-md-flex d-lg-flex input-group input-group-seamless ml-3 svelte-u0zpm6");
     			add_location(div, file$4, 34, 0, 607);
     		},
     		l: function claim(nodes) {
@@ -1893,43 +1893,43 @@ var app = (function () {
     			a2 = element("a");
     			a2.textContent = "View all Notifications";
     			attr_dev(i0, "class", "material-icons");
-    			add_location(i0, file$5, 4, 8, 212);
+    			add_location(i0, file$5, 25, 8, 572);
     			attr_dev(div0, "class", "notification__icon");
-    			add_location(div0, file$5, 3, 6, 171);
+    			add_location(div0, file$5, 24, 6, 531);
     			attr_dev(div1, "class", "notification__icon-wrapper");
-    			add_location(div1, file$5, 2, 4, 124);
+    			add_location(div1, file$5, 23, 4, 484);
     			attr_dev(span0, "class", "notification__category");
-    			add_location(span0, file$5, 8, 6, 314);
+    			add_location(span0, file$5, 29, 6, 674);
     			attr_dev(span1, "class", "text-success text-semibold");
-    			add_location(span1, file$5, 9, 56, 424);
-    			add_location(p0, file$5, 9, 6, 374);
+    			add_location(span1, file$5, 30, 56, 784);
+    			add_location(p0, file$5, 30, 6, 734);
     			attr_dev(div2, "class", "notification__content");
-    			add_location(div2, file$5, 7, 4, 272);
+    			add_location(div2, file$5, 28, 4, 632);
     			attr_dev(a0, "class", "dropdown-item");
     			attr_dev(a0, "href", "/");
-    			add_location(a0, file$5, 1, 2, 85);
+    			add_location(a0, file$5, 22, 2, 445);
     			attr_dev(i1, "class", "material-icons");
-    			add_location(i1, file$5, 15, 8, 656);
+    			add_location(i1, file$5, 36, 8, 1016);
     			attr_dev(div3, "class", "notification__icon");
-    			add_location(div3, file$5, 14, 6, 615);
+    			add_location(div3, file$5, 35, 6, 975);
     			attr_dev(div4, "class", "notification__icon-wrapper");
-    			add_location(div4, file$5, 13, 4, 568);
+    			add_location(div4, file$5, 34, 4, 928);
     			attr_dev(span2, "class", "notification__category");
-    			add_location(span2, file$5, 19, 6, 758);
+    			add_location(span2, file$5, 40, 6, 1118);
     			attr_dev(span3, "class", "text-danger text-semibold");
-    			add_location(span3, file$5, 20, 57, 865);
-    			add_location(p1, file$5, 20, 6, 814);
+    			add_location(span3, file$5, 41, 57, 1225);
+    			add_location(p1, file$5, 41, 6, 1174);
     			attr_dev(div5, "class", "notification__content");
-    			add_location(div5, file$5, 18, 4, 716);
+    			add_location(div5, file$5, 39, 4, 1076);
     			attr_dev(a1, "class", "dropdown-item");
     			attr_dev(a1, "href", "/");
-    			add_location(a1, file$5, 12, 2, 529);
+    			add_location(a1, file$5, 33, 2, 889);
     			attr_dev(a2, "class", "dropdown-item notification__all text-center");
     			attr_dev(a2, "href", "/");
-    			add_location(a2, file$5, 23, 2, 969);
-    			attr_dev(div6, "class", "dropdown-menu dropdown-menu-small");
-    			attr_dev(div6, "aria-labelledby", "dropdownMenuLink");
-    			add_location(div6, file$5, 0, 0, 0);
+    			add_location(a2, file$5, 44, 2, 1329);
+    			attr_dev(div6, "class", "menu w-100 svelte-19ck8g4");
+    			toggle_class(div6, "show", /*show*/ ctx[0]);
+    			add_location(div6, file$5, 21, 0, 407);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1964,7 +1964,11 @@ var app = (function () {
     			append_dev(div6, t15);
     			append_dev(div6, a2);
     		},
-    		p: noop,
+    		p: function update(ctx, [dirty]) {
+    			if (dirty & /*show*/ 1) {
+    				toggle_class(div6, "show", /*show*/ ctx[0]);
+    			}
+    		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
@@ -1983,8 +1987,9 @@ var app = (function () {
     	return block;
     }
 
-    function instance$6($$self, $$props) {
-    	const writable_props = [];
+    function instance$6($$self, $$props, $$invalidate) {
+    	let { show } = $$props;
+    	const writable_props = ["show"];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<TopBarNotificationMenu> was created with unknown prop '${key}'`);
@@ -1992,13 +1997,28 @@ var app = (function () {
 
     	let { $$slots = {}, $$scope } = $$props;
     	validate_slots("TopBarNotificationMenu", $$slots, []);
-    	return [];
+
+    	$$self.$set = $$props => {
+    		if ("show" in $$props) $$invalidate(0, show = $$props.show);
+    	};
+
+    	$$self.$capture_state = () => ({ show });
+
+    	$$self.$inject_state = $$props => {
+    		if ("show" in $$props) $$invalidate(0, show = $$props.show);
+    	};
+
+    	if ($$props && "$$inject" in $$props) {
+    		$$self.$inject_state($$props.$$inject);
+    	}
+
+    	return [show];
     }
 
     class TopBarNotificationMenu extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$6, create_fragment$6, safe_not_equal, {});
+    		init(this, options, instance$6, create_fragment$6, safe_not_equal, { show: 0 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -2006,11 +2026,73 @@ var app = (function () {
     			options,
     			id: create_fragment$6.name
     		});
+
+    		const { ctx } = this.$$;
+    		const props = options.props || {};
+
+    		if (/*show*/ ctx[0] === undefined && !("show" in props)) {
+    			console.warn("<TopBarNotificationMenu> was created without expected prop 'show'");
+    		}
+    	}
+
+    	get show() {
+    		throw new Error("<TopBarNotificationMenu>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set show(value) {
+    		throw new Error("<TopBarNotificationMenu>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
 
     /* src/layouts/main/layout-components/top-bar/TopBarNotificationToggle.svelte generated by Svelte v3.20.1 */
     const file$6 = "src/layouts/main/layout-components/top-bar/TopBarNotificationToggle.svelte";
+
+    // (25:2) {#if show}
+    function create_if_block$1(ctx) {
+    	let current;
+
+    	const topbarnotificationmenu = new TopBarNotificationMenu({
+    			props: { show: /*show*/ ctx[0] },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(topbarnotificationmenu.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(topbarnotificationmenu, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const topbarnotificationmenu_changes = {};
+    			if (dirty & /*show*/ 1) topbarnotificationmenu_changes.show = /*show*/ ctx[0];
+    			topbarnotificationmenu.$set(topbarnotificationmenu_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(topbarnotificationmenu.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(topbarnotificationmenu.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(topbarnotificationmenu, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block$1.name,
+    		type: "if",
+    		source: "(25:2) {#if show}",
+    		ctx
+    	});
+
+    	return block;
+    }
 
     function create_fragment$7(ctx) {
     	let li;
@@ -2021,7 +2103,8 @@ var app = (function () {
     	let span;
     	let t3;
     	let current;
-    	const topbarnotificationmenu = new TopBarNotificationMenu({ $$inline: true });
+    	let dispose;
+    	let if_block = /*show*/ ctx[0] && create_if_block$1(ctx);
 
     	const block = {
     		c: function create() {
@@ -2034,28 +2117,21 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "2";
     			t3 = space();
-    			create_component(topbarnotificationmenu.$$.fragment);
+    			if (if_block) if_block.c();
     			attr_dev(i, "class", "material-icons");
-    			add_location(i, file$6, 25, 6, 496);
+    			add_location(i, file$6, 20, 6, 378);
     			attr_dev(span, "class", "badge badge-pill badge-danger");
-    			add_location(span, file$6, 26, 6, 534);
-    			attr_dev(div0, "class", "nav-link-icon__wrapper");
-    			add_location(div0, file$6, 24, 4, 453);
-    			attr_dev(div1, "class", "nav-link nav-link-icon text-center dropdown-toggle svelte-ibaeix");
-    			attr_dev(div1, "href", "/");
-    			attr_dev(div1, "role", "button");
-    			attr_dev(div1, "id", "dropdownMenuLink");
-    			attr_dev(div1, "data-toggle", "dropdown");
-    			attr_dev(div1, "aria-haspopup", "true");
-    			attr_dev(div1, "aria-expanded", "false");
-    			add_location(div1, file$6, 16, 2, 238);
-    			attr_dev(li, "class", "nav-item svelte-ibaeix");
-    			add_location(li, file$6, 15, 0, 214);
+    			add_location(span, file$6, 21, 6, 416);
+    			add_location(div0, file$6, 19, 4, 366);
+    			attr_dev(div1, "class", "nav-link nav-link-icon text-center h-100 svelte-9bqgka");
+    			add_location(div1, file$6, 16, 2, 268);
+    			attr_dev(li, "class", "nav-item h-100 position-relative");
+    			add_location(li, file$6, 15, 0, 220);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
-    		m: function mount(target, anchor) {
+    		m: function mount(target, anchor, remount) {
     			insert_dev(target, li, anchor);
     			append_dev(li, div1);
     			append_dev(div1, div0);
@@ -2063,22 +2139,45 @@ var app = (function () {
     			append_dev(div0, t1);
     			append_dev(div0, span);
     			append_dev(li, t3);
-    			mount_component(topbarnotificationmenu, li, null);
+    			if (if_block) if_block.m(li, null);
     			current = true;
+    			if (remount) dispose();
+    			dispose = listen_dev(div1, "click", /*click_handler*/ ctx[1], false, false, false);
     		},
-    		p: noop,
+    		p: function update(ctx, [dirty]) {
+    			if (/*show*/ ctx[0]) {
+    				if (if_block) {
+    					if_block.p(ctx, dirty);
+    					transition_in(if_block, 1);
+    				} else {
+    					if_block = create_if_block$1(ctx);
+    					if_block.c();
+    					transition_in(if_block, 1);
+    					if_block.m(li, null);
+    				}
+    			} else if (if_block) {
+    				group_outros();
+
+    				transition_out(if_block, 1, 1, () => {
+    					if_block = null;
+    				});
+
+    				check_outros();
+    			}
+    		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(topbarnotificationmenu.$$.fragment, local);
+    			transition_in(if_block);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(topbarnotificationmenu.$$.fragment, local);
+    			transition_out(if_block);
     			current = false;
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(li);
-    			destroy_component(topbarnotificationmenu);
+    			if (if_block) if_block.d();
+    			dispose();
     		}
     	};
 
@@ -2094,6 +2193,7 @@ var app = (function () {
     }
 
     function instance$7($$self, $$props, $$invalidate) {
+    	let show = false;
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -2102,8 +2202,18 @@ var app = (function () {
 
     	let { $$slots = {}, $$scope } = $$props;
     	validate_slots("TopBarNotificationToggle", $$slots, []);
-    	$$self.$capture_state = () => ({ TopBarNotificationMenu });
-    	return [];
+    	const click_handler = () => $$invalidate(0, show = !show);
+    	$$self.$capture_state = () => ({ TopBarNotificationMenu, show });
+
+    	$$self.$inject_state = $$props => {
+    		if ("show" in $$props) $$invalidate(0, show = $$props.show);
+    	};
+
+    	if ($$props && "$$inject" in $$props) {
+    		$$self.$inject_state($$props.$$inject);
+    	}
+
+    	return [show, click_handler];
     }
 
     class TopBarNotificationToggle extends SvelteComponentDev {
@@ -2125,7 +2235,7 @@ var app = (function () {
     const file$7 = "src/layouts/main/layout-components/top-bar/TopBarUserDropdown.svelte";
 
     // (19:2) {#if showDropdown}
-    function create_if_block$1(ctx) {
+    function create_if_block$2(ctx) {
     	let div1;
     	let a0;
     	let i0;
@@ -2222,7 +2332,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$1.name,
+    		id: create_if_block$2.name,
     		type: "if",
     		source: "(19:2) {#if showDropdown}",
     		ctx
@@ -2240,7 +2350,7 @@ var app = (function () {
     	let span;
     	let t2;
     	let dispose;
-    	let if_block = /*showDropdown*/ ctx[0] && create_if_block$1(ctx);
+    	let if_block = /*showDropdown*/ ctx[0] && create_if_block$2(ctx);
 
     	const block = {
     		c: function create() {
@@ -2285,7 +2395,7 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			if (/*showDropdown*/ ctx[0]) {
     				if (!if_block) {
-    					if_block = create_if_block$1(ctx);
+    					if_block = create_if_block$2(ctx);
     					if_block.c();
     					if_block.m(li, null);
     				}
@@ -2387,7 +2497,7 @@ var app = (function () {
     }
 
     // (27:0) {#if openSidenav}
-    function create_if_block$2(ctx) {
+    function create_if_block$3(ctx) {
     	let i;
 
     	const block = {
@@ -2407,7 +2517,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$2.name,
+    		id: create_if_block$3.name,
     		type: "if",
     		source: "(27:0) {#if openSidenav}",
     		ctx
@@ -2421,7 +2531,7 @@ var app = (function () {
     	let dispose;
 
     	function select_block_type(ctx, dirty) {
-    		if (/*openSidenav*/ ctx[0]) return create_if_block$2;
+    		if (/*openSidenav*/ ctx[0]) return create_if_block$3;
     		return create_else_block$1;
     	}
 
@@ -2553,7 +2663,7 @@ var app = (function () {
     	let current;
     	const logo = new Logo({ $$inline: true });
     	const topbarsearch = new TopBarSearch({ $$inline: true });
-    	const topbarnotifications = new TopBarNotifications({ $$inline: true });
+    	const topbarnotificationtoggle = new TopBarNotificationToggle({ $$inline: true });
 
     	const topbarsidenavtoggle = new TopBarSidenavToggle({
     			props: { openSidenav: /*openSidenav*/ ctx[0] },
@@ -2570,10 +2680,10 @@ var app = (function () {
     			create_component(topbarsearch.$$.fragment);
     			t1 = space();
     			ul = element("ul");
-    			create_component(topbarnotifications.$$.fragment);
+    			create_component(topbarnotificationtoggle.$$.fragment);
     			t2 = space();
     			create_component(topbarsidenavtoggle.$$.fragment);
-    			attr_dev(ul, "class", "navbar-nav flex-row svelte-qe81n7");
+    			attr_dev(ul, "class", "navbar-nav flex-row h-100 svelte-qe81n7");
     			add_location(ul, file$9, 23, 2, 607);
     			attr_dev(nav, "class", "navbar navbar-expand-lg navbar-light sticky-top bg-white flex-md-nowrap p-0 svelte-qe81n7");
     			add_location(nav, file$9, 20, 0, 485);
@@ -2588,7 +2698,7 @@ var app = (function () {
     			mount_component(topbarsearch, nav, null);
     			append_dev(nav, t1);
     			append_dev(nav, ul);
-    			mount_component(topbarnotifications, ul, null);
+    			mount_component(topbarnotificationtoggle, ul, null);
     			append_dev(ul, t2);
     			mount_component(topbarsidenavtoggle, ul, null);
     			current = true;
@@ -2602,14 +2712,14 @@ var app = (function () {
     			if (current) return;
     			transition_in(logo.$$.fragment, local);
     			transition_in(topbarsearch.$$.fragment, local);
-    			transition_in(topbarnotifications.$$.fragment, local);
+    			transition_in(topbarnotificationtoggle.$$.fragment, local);
     			transition_in(topbarsidenavtoggle.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(logo.$$.fragment, local);
     			transition_out(topbarsearch.$$.fragment, local);
-    			transition_out(topbarnotifications.$$.fragment, local);
+    			transition_out(topbarnotificationtoggle.$$.fragment, local);
     			transition_out(topbarsidenavtoggle.$$.fragment, local);
     			current = false;
     		},
@@ -2617,7 +2727,7 @@ var app = (function () {
     			if (detaching) detach_dev(nav);
     			destroy_component(logo);
     			destroy_component(topbarsearch);
-    			destroy_component(topbarnotifications);
+    			destroy_component(topbarnotificationtoggle);
     			destroy_component(topbarsidenavtoggle);
     		}
     	};

@@ -10,7 +10,7 @@
   }
 </style>
 
-<a href="/" class="navbar-brand col-md-3 col-lg-2 w-100 mx-0">
+<a href="/" class="navbar-brand col-md-3 col-lg-2 h-100 w-100 mx-0">
   <img 
     id="main-logo" 
     class="d-inline-block align-top" 
