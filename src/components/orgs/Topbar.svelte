@@ -1,9 +1,9 @@
 <script>
-  import Logo from '../logo/Logo.svelte'
-  import TopBarSearch from './TopBarSearch.svelte'
-  import TopBarNotificationToggle from './TopBarNotificationToggle.svelte'
-  import TopBarUserDropdown from './TopBarUserDropdown.svelte'
-  import TopBarSidenavToggle from './TopBarSidenavToggle.svelte'
+  import Logo from '../mols/Logo.svelte'
+  import TopBarSearch from '../mols/TopBarSearch.svelte'
+  import NotificationBell from '../atoms/NotificationBell.svelte'
+  import TopBarUserDropdown from '../mols/TopBarUserDropdown.svelte'
+  import TopBarSidenavToggle from '../mols/TopBarSidenavToggle.svelte'
 
   export let openSidenav
 </script>
@@ -22,7 +22,7 @@
   <Logo />
   <TopBarSearch />
   <ul class="navbar-nav flex-row h-100">
-    <TopBarNotificationToggle />
+    <NotificationBell />
     <!-- <TopBarUserDropdown /> -->
     <TopBarSidenavToggle on:click {openSidenav} />
   </ul>

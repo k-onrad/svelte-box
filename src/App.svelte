@@ -2,7 +2,7 @@
   import Router from 'svelte-spa-router'
 
   import routes from './routes.js'
-  import MainLayout from './layouts/main/MainLayout.svelte'
+  import MainLayout from './components/templates/Dashboard.svelte'
 
   // Handles the "conditionsFailed" event dispatched by the router when a component can't be loaded because one of its pre-condition failed
   const conditionsFailed = (event) => {

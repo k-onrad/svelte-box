@@ -24,7 +24,7 @@ const plugins = [
     extract: 'static/bundle.css',
     sourceMap: true,
     minify: !dev,
-    ...require('./postss.config.js')
+    ...require('./postcss.config.js')
   }),
   legacy && babel({
     extensions: ['.js', '.mjs', '.html', '.svelte'],

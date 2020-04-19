@@ -1,6 +1,6 @@
 <script>
-  import SideNavItem from './SideNavItem.svelte'
-  import SideNavSearch from './SideNavSearch.svelte'
+  import SideNavItem from '../mols/SideNavItem.svelte'
+  import SideNavSearch from '../mols/SideNavSearch.svelte'
 
   export let openSidenav
 
