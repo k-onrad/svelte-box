@@ -1,8 +1,11 @@
 <script>
+  // from some reason eslint keeps fucking my imports
+  /* eslint-disable */
   import Router from 'svelte-spa-router'
 
+  import { width, height } from './stores.js'
   import routes from './routes.js'
-  import MainLayout from './components/templates/Dashboard.svelte'
+  import MainLayout from './templates/Dashboard.svelte'
 
   // Handles the "conditionsFailed" event dispatched by the router when a component can't be loaded because one of its pre-condition failed
   const conditionsFailed = (event) => {
@@ -22,8 +25,7 @@
   }
 </script>
 
-<style>
-</style>
+<svelte:window bind:innerWidth={$width} bind:innerHeight={$height} />
 
 <MainLayout>
   <Router {routes} on:conditionsFailed={conditionsFailed} on:routeLoaded={routeLoaded} on:routeEvent={routeEvent} />

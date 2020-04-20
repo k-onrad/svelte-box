@@ -9,19 +9,20 @@
 
 <style>
   li {
+    @apply w-full py-4 px-4;
+  }
+  li {
     white-space: nowrap;
-    min-width: 100%;
-    max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     transition: box-shadow .2s ease,color .2s ease,background-color .2s ease;
     font-size: .85rem;
   }
   a {
-    border-bottom: 1px solid #e1e5eb;
+    @apply w-full px-4 py-4;
+    @apply border-none;
     font-weight: 400;
     color: #3d5170;
-    padding: .9375rem 1.5625rem;
   }
   .active, a:hover {
     box-shadow: inset 0.1875rem 0 0 var(--blue);
@@ -49,7 +50,6 @@
   <a 
     use:link 
     use:active 
-    class="nav-link" 
     href={href}>
     <i class="material-icons">{icon}</i>
     <span>{text}</span>

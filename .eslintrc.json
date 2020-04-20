@@ -1,12 +1,11 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2020,
+    "ecmaVersion": 2019,
     "sourceType": "module"
   },
   "env": {
     "es6": true,
-    "browser": true,
-    "jest": true
+    "browser": true
   },
   "plugins": [
     "svelte3",
@@ -25,6 +24,11 @@
     }
   ],
   "rules": {
-    "no-multiple-empty-lines": "off"
+    "no-multiple-empty-lines": "off",
+    "no-unused-vars": "off",
+    "no-unresolved": "off",
+    "no-mutable-exports": "off",
+    "no-duplicates": "off",
+    "first": "off"
   }
 }
