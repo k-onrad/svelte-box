@@ -1,4 +1,5 @@
 import svelte from 'rollup-plugin-svelte'
+import autoPreprocess from 'svelte-preprocess'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import postcss from 'rollup-plugin-postcss'
@@ -13,7 +14,9 @@ const plugins = [
   svelte({
     dev,
     emitCss: true,
-    ...require('./svelte.config.js')
+    preprocess: autoPreprocess({
+      postcss: true
+    })
   }),
   resolve({
     browser: true,
@@ -21,10 +24,9 @@ const plugins = [
   }),
   commonjs(),
   postcss({
-    extract: 'static/bundle.css',
-    sourceMap: true,
-    minify: !dev,
-    ...require('./postcss.config.js')
+    extract: 'bundle.css',
+    minimize: !dev,
+    sourceMap: true
   }),
   legacy && babel({
     extensions: ['.js', '.mjs', '.html', '.svelte'],
@@ -35,30 +37,9 @@ const plugins = [
 ]
 
 if (dev) {
-  // Call `npm run start` once the bundle has been generated,
-  // Then watch `static` directory, refresh browser on changes
-  plugins.push(
-    dev && serve(),
-    dev && livereload('static')
-  )
+  plugins.push(dev && livereload('static'))
 } else {
-  // minify if not dev mode
   plugins.push(!dev && terser({ module: true }))
-}
-
-function serve () {
-  let started = false
-  const writeBundle = () => {
-    if (!started) {
-      started = true
-
-      require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
-        stdio: ['ignore', 'inherit', 'inherit'],
-        shell: true
-      })
-    }
-  }
-  return writeBundle()
 }
 
 module.exports = {
