@@ -2,10 +2,6 @@
   import { fly } from 'svelte/transition'
 
   import ListItem from '../mols/ListItem.svelte'
-  import Searchbar from '../mols/Searchbar.svelte'
-
-  export let hidden
-  export let mobile
 
   const modules = [
     { id: 1, href: '/', icon: 'edit', text: 'Dashboard' },
@@ -24,17 +20,15 @@
     @apply h-screen px-0 pt-16;
     @apply border-r border-gray-200;
   }
-  .hidden {
-    display: none;
+  ul {
+    @apply flex flex-col pt-2 overflow-x-hidden;
   }
 </style>
 
-{#if !hidden || !mobile}
-  <nav class="w-full md:max-w-xs" transition:fly="{{ opacity: 1, duration: 300, x: -200 }}">  
-    <ul class="flex flex-col pt-2 overflow-x-hidden">
-      {#each modules as {id, ...props} (id)}
-        <ListItem {...props}/>
-      {/each}
-    </ul>
-  </nav>
-{/if}
+<nav class="w-full md:max-w-xs" transition:fly="{{ opacity: 1, duration: 200, x: -1000 }}">  
+  <ul>
+    {#each modules as {id, ...props} (id)}
+      <ListItem {...props}/>
+    {/each}
+  </ul>
+</nav>

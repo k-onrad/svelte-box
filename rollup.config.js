@@ -13,10 +13,10 @@ const legacy = !!process.env.LEGACY_BUILD
 const plugins = [
   svelte({
     dev,
-    emitCss: true,
     preprocess: autoPreprocess({
       postcss: true
-    })
+    }),
+    css: css => css.write('static/components.css')
   }),
   resolve({
     browser: true,
@@ -24,7 +24,7 @@ const plugins = [
   }),
   commonjs(),
   postcss({
-    extract: 'bundle.css',
+    extract: 'utils.css',
     minimize: !dev,
     sourceMap: true
   }),

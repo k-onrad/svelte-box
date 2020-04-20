@@ -49,6 +49,12 @@ Obviously I still 🔥❤️️ Svelte , so I couldn't abandon it because of sca
 
 I ended up forking something and messing around with it. Replaced some pieces that needed precise config to work properly, and here we are now!
 
+## How to use it?
+
+`npx degit k-onrad/svelte-box my-svelte-project`
+`cd my-svelte-project`
+`npm i`
+
 ## What's in the box?
 
 This template includes:

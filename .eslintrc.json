@@ -13,7 +13,7 @@
     "chai-friendly"
   ],
   "extends": [
-    "standard",
+    "eslint:recommended",
     "plugin:cypress/recommended",
     "plugin:chai-friendly/recommended"
   ],
@@ -24,11 +24,9 @@
     }
   ],
   "rules": {
-    "no-multiple-empty-lines": "off",
-    "no-unused-vars": "off",
-    "no-unresolved": "off",
-    "no-mutable-exports": "off",
-    "no-duplicates": "off",
-    "first": "off"
+    "semi": ["error", "never"],
+    "quote": ["error", "single"],
+    "indent": ["error", 2],
+    "comma-dangle": ["error", "only-multiline"]
   }
 }
