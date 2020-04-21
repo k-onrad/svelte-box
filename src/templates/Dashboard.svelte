@@ -3,7 +3,7 @@
   import { width } from '../stores.js'
   import Topbar from '../orgs/Topbar.svelte'
   import Sidenav from '../orgs/Sidenav.svelte'
-  import Footer from '../orgs/Footer.svelte'
+  // import Footer from '../orgs/Footer.svelte'
 
   // Assume mobile, if width >= 768 then tablet or desktop
   let hidden = true
@@ -23,8 +23,6 @@
       <slot>
         <div class="content">content</div>
       </slot>
-
-      <Footer/>
     </main>
   {/if}
 </div>
