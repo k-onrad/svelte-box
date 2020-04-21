@@ -62,7 +62,7 @@ This template includes:
 * **[Cypress](https://www.cypress.io/)** - Javascript e2e testing framework.
 * **[ESLint](https://eslint.org/)** - Finds and fixes problems in your JavaScript code (already configured for Svelte etc).
 
-And layouts? Yes, layouts. Be advised we componentized and messed around with them a little bit.
+And layouts? Yes, layouts. Eventually I'll make them optional or something.
 * **Dashboard** - A modern dashboard, inspired by [Shards Dashboard](https://github.com/designrevision/shards-dashboard).
 * **Blog** - [ ] something blog-like
 * **Store** - [ ] something store-like
