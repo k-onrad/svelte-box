@@ -52,7 +52,9 @@ I ended up forking something and messing around with it. Replaced some pieces th
 ## How to use it?
 
 `npx degit k-onrad/svelte-box my-svelte-project`
+
 `cd my-svelte-project`
+
 `npm i`
 
 ## What's in the box?
