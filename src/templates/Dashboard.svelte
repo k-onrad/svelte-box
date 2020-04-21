@@ -1,6 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
-  import { width } from '../stores.js'
+  import { width } from '../core/stores.js'
   import Topbar from '../orgs/Topbar.svelte'
   import Sidenav from '../orgs/Sidenav.svelte'
   // import Footer from '../orgs/Footer.svelte'

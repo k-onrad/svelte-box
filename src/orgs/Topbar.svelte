@@ -1,5 +1,5 @@
 <script>
-  import { width } from '../stores.js'
+  import { width } from '../core/stores.js'
   import Logo from '../mols/Logo.svelte'
   import Searchbar from '../mols/Searchbar.svelte'
   import Hamburguer from '../atoms/Hamburguer.svelte'

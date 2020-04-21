@@ -3,8 +3,8 @@
   /* eslint-disable */
   import Router from 'svelte-spa-router'
 
-  import { width, height } from './stores.js'
-  import routes from './routes.js'
+  import { width } from './core/stores.js'
+  import routes from './core/routes.js'
   import Dashboard from './templates/Dashboard.svelte'
 
   // Handles the "conditionsFailed" event dispatched by the router when a component can't be loaded because one of its pre-condition failed
@@ -25,7 +25,7 @@
   }
 </script>
 
-<svelte:window bind:innerWidth={$width} bind:innerHeight={$height} />
+<svelte:window bind:innerWidth={$width} />
 
 <Dashboard>
   <Router {routes} on:conditionsFailed={conditionsFailed} on:routeLoaded={routeLoaded} on:routeEvent={routeEvent} />

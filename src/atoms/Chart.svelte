@@ -18,4 +18,4 @@
   })
 </script>
 
-<canvas bind:this={ctx} aria-label={ariaLabel} role="img"></canvas>
+<canvas class="w-full h-full m-0 p-0" bind:this={ctx} aria-label={ariaLabel} role="img"></canvas>
