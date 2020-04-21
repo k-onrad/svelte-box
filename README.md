@@ -40,7 +40,7 @@ I needed something to give me a decent starting point, with the whole shebang:
 * polyfills
 * preprocessors
 * e2e testing
-* SPA, hash-based routing
+* hash-based routing
 * some basic layouts
 
 But completely decoupled from a back-end.
@@ -48,14 +48,6 @@ But completely decoupled from a back-end.
 Obviously I still 🔥❤️️ Svelte , so I couldn't abandon it because of scaffolding.
 
 I ended up forking something and messing around with it. Replaced some pieces that needed precise config to work properly, and here we are now!
-
-## How to use it?
-
-`npx degit k-onrad/svelte-box my-svelte-project`
-
-`cd my-svelte-project`
-
-`npm i`
 
 ## What's in the box?
 
@@ -68,17 +60,22 @@ This template includes:
 * **[PostCSS](https://postcss.org/)** - A tool for transforming styles with JS plugins.
 * **[Svelte-SPA-Router](https://github.com/ItalyPaleAle/svelte-spa-router)** - Router for SPAs using Svelte 3.
 * **[Cypress](https://www.cypress.io/)** - Javascript e2e testing framework.
-* **[ESLint](https://eslint.org/)-[Standard](https://standardjs.com/)** - An ESLint shareable Config for JavaScript Standard Style.
-* **[Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch)** - Isomorphic WHATWG Fetch API, for Node & Browserify.
+* **[ESLint](https://eslint.org/)** - Finds and fixes problems in your JavaScript code (already configured for Svelte etc).
 
 And layouts? Yes, layouts. Be advised we componentized and messed around with them a little bit.
-* **[Shards Dashboard](https://github.com/designrevision/shards-dashboard)** - A modern & free Bootstrap 4 admin dashboard template pack.
-* [ ] something blog-like
-* [ ] something store-like
+* **Dashboard** - A modern dashboard, inspired by [Shards Dashboard](https://github.com/designrevision/shards-dashboard).
+* **Blog** - [ ] something blog-like
+* **Store** - [ ] something store-like
 
 ## Setting up shop
 
-* [ ] Write this whole thing
+`npx degit k-onrad/svelte-box my-svelte-project`
+
+`cd my-svelte-project`
+
+`npm i`
+
+* [ ] Details? Dunno
 
 ## Where does everything go
 
