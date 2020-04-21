@@ -25,8 +25,6 @@
 <div align="center">
   A template with reasonable defaults and basic layouts to get you on your way 😉.
   <br />
-  <sub>Maintained by <a href="https://github.com/k-onrad/">K-onrad</a></sub>
-  <br />
   <sub>Inspired by <a href="https://github.com/pankod/svelte-boilerplate">Pankod's boilerplate</a></sub>
 </div>
 
