@@ -85,4 +85,4 @@ And layouts? Yes, layouts. Eventually I'll make them optional or something.
 
 #### For the bureaucrats
 
-<sub>Licensed under the MIT License, Copyright © 2019-present K-onrad</sub>
+<sub>Licensed under the MIT License, Copyright © 2020-present K-onrad</sub>
