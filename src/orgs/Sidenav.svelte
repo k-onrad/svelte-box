@@ -10,7 +10,7 @@
     @apply px-0 pt-24 relative z-10 shadow-2xl;
   }
   ul {
-    @apply flex flex-col pt-2 overflow-x-hidden w-full h-full;
+    @apply pt-2 w-full sticky top-26 scrolling-touch overflow-y-auto;
   }
 </style>
 

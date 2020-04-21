@@ -24462,10 +24462,10 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(ul, "class", "svelte-mnatoj");
-    			add_location(ul, file$d, 28, 2, 1166);
-    			attr_dev(nav, "class", "w-full md:w-1/4 svelte-mnatoj");
-    			add_location(nav, file$d, 27, 0, 1073);
+    			attr_dev(ul, "class", "svelte-s8zfzq");
+    			add_location(ul, file$d, 28, 2, 1189);
+    			attr_dev(nav, "class", "w-full md:w-1/4 svelte-s8zfzq");
+    			add_location(nav, file$d, 27, 0, 1096);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -24596,7 +24596,7 @@ var app = (function () {
 
     const file$e = "src/templates/Dashboard.svelte";
 
-    // (39:2) {#if $width > 768 || !hidden}
+    // (46:2) {#if $width > 768 || !hidden}
     function create_if_block_1(ctx) {
     	let current;
 
@@ -24632,14 +24632,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(39:2) {#if $width > 768 || !hidden}",
+    		source: "(46:2) {#if $width > 768 || !hidden}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (43:2) {#if $width > 768 || hidden}
+    // (50:2) {#if $width > 768 || hidden}
     function create_if_block$3(ctx) {
     	let main;
     	let main_intro;
@@ -24652,8 +24652,8 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			if (default_slot_or_fallback) default_slot_or_fallback.c();
-    			attr_dev(main, "class", "svelte-1wgooa1");
-    			add_location(main, file$e, 43, 4, 1719);
+    			attr_dev(main, "class", "svelte-tv5tay");
+    			add_location(main, file$e, 50, 4, 1941);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, main, anchor);
@@ -24698,14 +24698,14 @@ var app = (function () {
     		block,
     		id: create_if_block$3.name,
     		type: "if",
-    		source: "(43:2) {#if $width > 768 || hidden}",
+    		source: "(50:2) {#if $width > 768 || hidden}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (45:12)          
+    // (52:12)          
     function fallback_block(ctx) {
     	let current;
     	const notfound = new NotFound({ $$inline: true });
@@ -24736,7 +24736,7 @@ var app = (function () {
     		block,
     		id: fallback_block.name,
     		type: "fallback",
-    		source: "(45:12)          ",
+    		source: "(52:12)          ",
     		ctx
     	});
 
@@ -24766,8 +24766,8 @@ var app = (function () {
     			if (if_block0) if_block0.c();
     			t1 = space();
     			if (if_block1) if_block1.c();
-    			attr_dev(div, "class", "flex h-screen bg-white");
-    			add_location(div, file$e, 37, 0, 1582);
+    			attr_dev(div, "class", "svelte-tv5tay");
+    			add_location(div, file$e, 44, 0, 1835);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

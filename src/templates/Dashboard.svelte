@@ -24,14 +24,17 @@
 </script>
 
 <style>
+  div {
+    @apply flex min-h-full bg-white;
+  }
   main {
-    @apply w-full px-0 pt-20 bg-gray-200;
+    @apply w-full min-h-screen px-0 pt-20 bg-gray-200;
   }
 </style>
 
 <Topbar {hidden} on:click={() => hidden = !hidden} />
 
-<div class="flex h-screen bg-white">
+<div>
   {#if $width > 768 || !hidden}
     <Sidenav {links} />
   {/if}
