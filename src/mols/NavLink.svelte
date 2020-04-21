@@ -16,7 +16,7 @@
     transition: box-shadow .2s ease,color .2s ease,background-color .2s ease;
   }
   a {
-    @apply w-full px-4 py-6;
+    @apply w-full p-4 m-1;
     @apply border-none;
   }
   .active, a:hover {

@@ -11,9 +11,9 @@
 
 <style>
   header {
-    @apply fixed top-0 inset-x-0 z-50;
-    @apply w-full h-16 py-2 px-6;
-    @apply bg-white border-b border-gray-200 text-sm;
+    @apply fixed top-0 inset-x-0 z-20;
+    @apply w-full h-20 py-2 px-6;
+    @apply bg-white text-sm shadow-lg;
     @apply flex items-center content-center justify-between;
   }
   div {

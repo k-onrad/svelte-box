@@ -25,7 +25,7 @@
   ],
   "rules": {
     "semi": ["error", "never"],
-    "quote": ["error", "single"],
+    "quotes": ["error", "single"],
     "indent": ["error", 2],
     "comma-dangle": ["error", "only-multiline"]
   }
